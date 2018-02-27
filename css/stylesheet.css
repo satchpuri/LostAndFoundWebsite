@@ -152,7 +152,7 @@ section.success {
 }
 
 #mainNav .navbar-brand {
-    font-size: 1.1rem;
+    font-size: 0.5rem;
     color: white;
 }
 
@@ -211,7 +211,7 @@ section.success {
         transition: padding-top 0.3s, padding-bottom 0.3s;
     }
     #mainNav .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
@@ -942,3 +942,5 @@ p {
 {
     margin-bottom: 1em;
 }
+
+
