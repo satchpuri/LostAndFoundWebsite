@@ -36,50 +36,42 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h10 {
     font-family: 'Fontin', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
 }
 
-hr.star-light,
-hr.star-primary {
-    max-width: 250px;
-    margin: 25px auto 30px;
-    padding: 0;
+h9 {
+    font-family: 'Fontin', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
     text-align: center;
-    border: none;
-    border-top: solid 5px;
+    font-size: 5em;
+    margin: auto;
+    height: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
-    font-family: FontAwesome;
+h11 {
+    font-family: 'Fontin', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
     font-size: 2em;
-    position: relative;
-    top: -.8em;
-    display: inline-block;
-    padding: 0 0.25em;
-    content: '\f005';
-}
-
-hr.star-light {
-    border-color: #e3c153;
-}
-
-hr.star-light:after {
-    color: #e4e150;
-    background-color: #5a5f88;
-}
-
-hr.star-primary {
-    border-color: #2C3E50;
-}
-
-hr.star-primary:after {
-    color: #2C3E50;
-    background-color: #f7ebdb;
+    margin: auto;
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 .img-centered {
@@ -90,7 +82,7 @@ section {
     padding: 10px 0;
 }
 
-section h2 {
+section h9 {
     font-size: 3em;
     margin: 0;
 }
@@ -183,7 +175,7 @@ section.success {
 
 #mainNav .navbar-toggler {
     font-size: 14px;
-    padding: 11px;
+
     text-transform: uppercase;
     color: white;
     border-color: white;
@@ -200,6 +192,7 @@ section.success {
     text-align: center;
     position: relative;
     right: 0rem;
+    left: 25%;
 }
 
 @media (min-width: 992px) {
@@ -211,7 +204,7 @@ section.success {
         transition: padding-top 0.3s, padding-bottom 0.3s;
     }
     #mainNav .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2em;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
@@ -708,14 +701,10 @@ fieldset[disabled] .btn-success:hover {
 
 #news {
     background: #5a5f88;
-    height: 31em;
+    height: 35em;
 }
 
-#containers {
-    width: 75%;
-    padding: auto;
-    margin: auto;
-}
+
 
 #slider {
     width: 75%;
@@ -841,7 +830,7 @@ fieldset[disabled] .btn-success:hover {
 }
 
 @media (max-width: 900px) {
-    
+
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -893,9 +882,7 @@ fieldset[disabled] .btn-success:hover {
         height: 10rem;
     }
 
-    #news img {
-        display: none;
-    }
+    #news img {}
     #news h3 {
         margin-top: 2em;
     }
@@ -930,17 +917,72 @@ p {
     color: black;
 }
 
-.captionLarge:hover {
-}
+.captionLarge:hover {}
 
 .fix-bot {
     position: fixed;
     bottom: 0px;
     width: 100%;
 }
-.btn-outline-success
-{
+
+.btn-outline-success {
     margin-bottom: 1em;
 }
 
+#myCarousel .carousel-caption {
+    font-family: 'Fontin', sans-serif;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+}
 
+#myCarousel .list-group {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.carousel-caption h4 {
+    text-shadow: 1px 1px black;
+}
+
+#myCarousel .list-group-item {
+    font-family: 'Fontin', sans-serif;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+#myCarousel .list-group .active {
+    background-color: #5a5f88;
+}
+
+@media (min-width: 992px) {
+    #myCarousel {
+        padding-right: 33.3333%;
+    }
+    #myCarousel .carousel-controls {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .carousel-caption p,
+    #myCarousel .list-group {
+        display: none;
+    }
+}
+
+.Date {
+    text-align: right;
+    float: right;
+    overflow: auto;
+    font-style: italic;
+    font-size: .8em;
+   
+    
+
+}
