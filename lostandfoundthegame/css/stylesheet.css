@@ -702,7 +702,10 @@ fieldset[disabled] .btn-success:hover {
 #news {
     background: #5a5f88;
     height: 35em;
+    
 }
+
+
 
 
 
@@ -937,13 +940,31 @@ p {
     text-align: left;
     padding: 10px;
     background: rgba(0, 0, 0, 0.8);
+    
     text-shadow: none;
+}
+
+.center {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-25%);
 }
 
 #myCarousel .list-group {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0;   
+}
+
+.list-group{
+    max-height: 400px;
+    margin-bottom: 10px;
+    overflow-y:scroll;
+
 }
 
 .carousel-caption h4 {
@@ -977,12 +998,13 @@ p {
 }
 
 .Date {
-    text-align: right;
+    text-align: left;
     float: right;
     overflow: auto;
     font-style: italic;
     font-size: .8em;
-   
-    
+    padding-right: 0.5em;
+
+
 
 }
