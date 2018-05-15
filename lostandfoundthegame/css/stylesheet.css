@@ -858,7 +858,7 @@ fieldset[disabled] .btn-success:hover {
 
     #news {
         background: #5a5f88;
-        height: 50rem;
+        height: 40rem;
     }
 
     #containers {
@@ -887,7 +887,7 @@ fieldset[disabled] .btn-success:hover {
 
     #news img {}
     #news h3 {
-        margin-top: 2em;
+        margin-top: 1em;
     }
 
     footer {
@@ -944,9 +944,14 @@ p {
     text-shadow: none;
 }
 
+#myCarousel
+{
+    
+}
 .center {
     margin: 0;
-    background: yellow;
+    background: rgba(0, 0, 0, 0.2);
+    backface-visibility: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
