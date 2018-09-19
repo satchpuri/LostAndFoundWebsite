@@ -144,7 +144,7 @@ section.success {
 }
 
 #mainNav .navbar-brand {
-    font-size: 0.5rem;
+    font-size: 2rem;
     color: white;
 }
 
@@ -195,7 +195,10 @@ section.success {
     left: 25%;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
+    #navbarResponsive {
+            left:0%;
+    }
     #mainNav {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -246,7 +249,7 @@ header.masthead {
     background: url(../img/shopBackdrop_051017.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position:top;
     background-size: contain;
 
 }
@@ -706,9 +709,6 @@ fieldset[disabled] .btn-success:hover {
 }
 
 
-
-
-
 #slider {
     width: 75%;
     height: 30em;
@@ -891,7 +891,7 @@ fieldset[disabled] .btn-success:hover {
     }
 
     footer {
-        visibility: hidden;
+        visibility: visible;
     }
 }
 
@@ -961,14 +961,16 @@ p {
 
 #myCarousel .list-group {
     position: absolute;
+
     top: 0;
     right: 0;   
 }
 
 .list-group{
-    max-height: 400px;
-    margin-bottom: 10px;
+     max-height: 40e,;
+   
     overflow-y:scroll;
+    -webkit-overflow-scrolling: touch;
 
 }
 
@@ -976,9 +978,20 @@ p {
     text-shadow: 1px 1px black;
 }
 
+.list group-item{
+
+}
 #myCarousel .list-group-item {
     font-family: 'Fontin', sans-serif;
     border-radius: 0px;
+    position: relative;
+    display: block;
+    padding: 10px 10px 90px 10px;
+    margin-bottom: .1rem;
+    border: 1px solid #ddd;
+    line-height: 5em;
+
+    word-break:keep-all; /* wrap extended text*/
     cursor: pointer;
 }
 
@@ -1005,10 +1018,10 @@ p {
 .Date {
     text-align: left;
     float: right;
-    overflow: auto;
+    overflow-y:hidden
     font-style: italic;
     font-size: .8em;
-    padding-right: 0.5em;
+    padding-right: 0.8em;
 
 
 
