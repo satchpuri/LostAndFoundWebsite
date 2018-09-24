@@ -746,25 +746,6 @@ fieldset[disabled] .btn-success:hover {
     height: 100%;
 }
 
-.slide:nth-child(1) {
-    background: rgba(247, 158, 66, 1);
-}
-
-.slide:nth-child(2) {
-    background: rgba(131, 191, 213, 1);
-}
-
-.slide:nth-child(3) {
-    background: rgba(141, 151, 65, 1);
-}
-
-.slide:nth-child(4) {
-    background: rgba(231, 195, 59, 1);
-}
-
-.slide:nth-child(5) {
-    background: rgba(255, 171, 98, 1);
-}
 
 
 .slide-copy {
@@ -939,7 +920,7 @@ p {
     bottom: 0;
     text-align: left;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.7);
     
     text-shadow: none;
 }
@@ -967,7 +948,7 @@ p {
 }
 
 .list-group{
-     max-height: 40e,;
+     max-height: 40em;
    
     overflow-y:scroll;
     -webkit-overflow-scrolling: touch;
@@ -986,10 +967,11 @@ p {
     border-radius: 0px;
     position: relative;
     display: block;
-    padding: 10px 10px 90px 10px;
+    padding: 10px 10px 105px 10px;
     margin-bottom: .1rem;
+    vertical-align: middle;
     border: 1px solid #ddd;
-    line-height: 5em;
+    line-height: 25px;
 
     word-break:keep-all; /* wrap extended text*/
     cursor: pointer;
