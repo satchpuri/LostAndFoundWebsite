@@ -104,6 +104,7 @@ section.success {
     section {
         padding: 75px 0;
     }
+
     section.first {
         padding-top: 75px;
     }
@@ -197,8 +198,9 @@ section.success {
 
 @media (max-width: 992px) {
     #navbarResponsive {
-            left:0%;
+        left: 0%;
     }
+
     #mainNav {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -206,30 +208,36 @@ section.success {
         -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
         transition: padding-top 0.3s, padding-bottom 0.3s;
     }
+
     #mainNav .navbar-brand {
         font-size: 2em;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
     }
+
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
         color: white;
         border-radius: 3px;
         background: #5a5f88;
     }
+
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white;
         background: #5a5f88;
     }
+
     #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
     .name {
         visibility: visible;
     }
@@ -249,7 +257,7 @@ header.masthead {
     background: url(../img/shopBackdrop_051017.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position:top;
+    background-position: top;
     background-size: contain;
 
 }
@@ -287,9 +295,11 @@ header.masthead .intro-text .skills {
         padding-bottom: 100px;
 
     }
+
     header.masthead .intro-text .name {
         font-size: 4.75em;
     }
+
     header.masthead .intro-text .skills {
         font-size: 1.75em;
     }
@@ -705,7 +715,7 @@ fieldset[disabled] .btn-success:hover {
 #news {
     background: #5a5f88;
     height: 35em;
-    
+
 }
 
 
@@ -818,6 +828,7 @@ fieldset[disabled] .btn-success:hover {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+
     header.masthead {
         padding-top: 5rem;
         background: #5a5f88;
@@ -829,6 +840,7 @@ fieldset[disabled] .btn-success:hover {
         /* For Firefox 3.6 to 15 */
         background: linear-gradient(to right, #5a5f88, #83bfd5);
     }
+
     .name {
         visibility: visible;
     }
@@ -867,6 +879,7 @@ fieldset[disabled] .btn-success:hover {
     }
 
     #news img {}
+
     #news h3 {
         margin-top: 1em;
     }
@@ -921,14 +934,12 @@ p {
     text-align: left;
     padding: 10px;
     background: rgba(0, 0, 0, 0.7);
-    
+
     text-shadow: none;
 }
 
-#myCarousel
-{
-    
-}
+#myCarousel {}
+
 .center {
     margin: 0;
     background: rgba(0, 0, 0, 0.2);
@@ -944,24 +955,29 @@ p {
     position: absolute;
 
     top: 0;
-    right: 0;   
+    right: 0;
 }
 
-.list-group{
-     max-height: 40em;
-   
-    overflow-y:scroll;
+.list-group {
+    max-height: 40em;
+
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
 
 }
 
 .carousel-caption h4 {
+
     text-shadow: 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: table;
+    margin: auto;
+
+    
 }
 
-.list group-item{
+.list group-item {}
 
-}
 #myCarousel .list-group-item {
     font-family: 'Fontin', sans-serif;
     border-radius: 0px;
@@ -973,7 +989,8 @@ p {
     border: 1px solid #ddd;
     line-height: 25px;
 
-    word-break:keep-all; /* wrap extended text*/
+    word-break: keep-all;
+    /* wrap extended text*/
     cursor: pointer;
 }
 
@@ -985,12 +1002,14 @@ p {
     #myCarousel {
         padding-right: 33.3333%;
     }
+
     #myCarousel .carousel-controls {
         display: none;
     }
 }
 
 @media (max-width: 991px) {
+
     .carousel-caption p,
     #myCarousel .list-group {
         display: none;
@@ -1000,8 +1019,7 @@ p {
 .Date {
     text-align: left;
     float: right;
-    overflow-y:hidden
-    font-style: italic;
+    overflow-y: hidden font-style: italic;
     font-size: .8em;
     padding-right: 0.8em;
 
