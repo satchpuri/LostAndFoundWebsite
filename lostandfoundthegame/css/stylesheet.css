@@ -134,7 +134,7 @@ section.success {
 
 #mainNav {
     font-family: 'Fontin', sans-serif;
-    font-weight: 00;
+    font-weight: 0;
     text-transform: uppercase;
     border: none;
     background: #2C3E50;
@@ -763,7 +763,6 @@ fieldset[disabled] .btn-success:hover {
     bottom: 0;
     left: 0;
     padding: 10px 20px 20px 20px;
-    background: 7f7f7f;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     max-height: 15%;
@@ -856,7 +855,7 @@ fieldset[disabled] .btn-success:hover {
 
     #containers {
         width: 75%;
-        padding: auto;
+        padding: inherit;
         margin: auto;
     }
 
@@ -937,6 +936,10 @@ p {
 
     text-shadow: none;
 }
+.black
+{
+     background-color: rgba(0, 0, 0, 0.8);
+}
 
 #myCarousel {}
 
@@ -967,13 +970,11 @@ p {
 }
 
 .carousel-caption h4 {
-
+    font-size: 1.5em;
     text-shadow: 1px 1px black;
-    background-color: rgba(0, 0, 0, 0.8);
+   
     display: table;
-    margin: auto;
-
-    
+    margin: auto;  
 }
 
 .list group-item {}
@@ -1019,7 +1020,8 @@ p {
 .Date {
     text-align: left;
     float: right;
-    overflow-y: hidden font-style: italic;
+    overflow-y: hidden;
+    font-style: italic;
     font-size: .8em;
     padding-right: 0.8em;
 
